@@ -1,0 +1,39 @@
+.new-card-button {
+    background-color: transparent;
+    border: 2px solid #01432570;
+    width: 100%;
+    height: calc(70vh - 16px);
+    color: #01432570;
+    font-size: 96px;
+    border-radius: 8px;
+    transition: .3s;
+    box-sizing: border-box;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.new-card-button:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 568px) {
+    .new-card-button {
+        margin-right: 0px;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+    .new-card-button {
+        width: 196px;
+        height: 296px;
+    }
+  }
+
+  @media screen and (min-width: 567px) and (max-width: 1023px)  {
+    .new-card-button {
+        width: 31vw;
+        height: 100vh;
+    }
+  }
+
